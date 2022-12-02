@@ -6,10 +6,15 @@ body {
 }
 
 header {
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
   position: sticky;
   top: 0;
   background: white;
+  height: 55px;
+  box-shadow: 4.7px 9.4px 9.4px hsl(0deg 0% 0% / 0.35);
+}
+
+img {
+  margin-top: 10px;
 }
 .left img {
   width: 45px;
@@ -31,6 +36,10 @@ header {
   margin: auto;
 }
 
+nav {
+  margin-top: 12px;
+}
+
 nav ul li {
   padding: 0 20px;
   list-style: none;
@@ -44,4 +53,11 @@ nav ul li {
 .section1 {
   background-color: rgb(229, 229, 237);
   height: 122vh;
+}
+
+.search {
+  width: 31vw;
+  border-radius: 5px;
+  padding: 2px;
+  background: #a5141445;
 }

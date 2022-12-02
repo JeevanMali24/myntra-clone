@@ -26,7 +26,20 @@
         </div>
 
         <div class="right flex item-center">
-          <input class="" type="text" />
+          <input
+            class="search"
+            type="text"
+            id="autocomplete"
+            value=""
+            placeholder="What is on your mind today?"
+            onfocus="autoComplete()"
+            onkeydown="if(event.keyCode==13) searchTrigger();"
+            autocorrect="off"
+            autocapitalize="off"
+            autocomplete="off"
+            spellcheck="false"
+            class="focused"
+          />
           <div class="profile mx-2">profile</div>
           <div class="Wishlist mx-2">Wishlist</div>
           <div class="Bag" mx-2>Bag</div>
@@ -34,7 +47,7 @@
       </nav>
     </header>
   </body>
-  <br /><br />
+
   <section class="container section1">
     1914 translation by H. Rackham <br />
     "But I must explain to you how all this mistaken idea of denouncing pleasure
