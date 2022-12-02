@@ -2,18 +2,46 @@ html,
 body {
   hight: 100%;
   width: 100%;
+  font-family: "Trirong", serif;
+}
+
+header {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  background: white;
 }
 .left img {
   width: 45px;
   height: 35px;
 }
+.item-center {
+  align-items: center;
+}
 
+.justify-center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
 .container {
-  max-width: 80vw;
+  padding: 0 10vw;
   margin: auto;
 }
 
 nav ul li {
   padding: 0 20px;
   list-style: none;
+}
+
+.mx-2 {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.section1 {
+  background-color: rgb(229, 229, 237);
+  height: 122vh;
 }
