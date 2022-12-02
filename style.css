@@ -10,10 +10,11 @@ header {
   top: 0;
   background: white;
   height: 55px;
-  box-shadow: 4.7px 9.4px 9.4px hsl(0deg 0% 0% / 0.35);
+  box-shadow: 0px 6px 16px 0px hsl(0deg 0% 0% / 35%);
 }
 
-img {
+.homeimg {
+  width: 84vw;
   margin-top: 10px;
 }
 .left img {
@@ -52,12 +53,35 @@ nav ul li {
 
 .section1 {
   background-color: rgb(229, 229, 237);
-  height: 122vh;
 }
 
 .search {
   width: 31vw;
   border-radius: 5px;
   padding: 2px;
-  background: #a5141445;
+  background: #c2afaf45;
+}
+.homeimg {
+  width: 80vw;
+}
+
+.itemimg {
+  width: 80vw;
+  margin: 12px;
+}
+
+footer {
+  margin: 3px;
+  /* align-items: center; */
+  text-align: center;
+}
+
+h2 {
+  padding: 12px;
+  width: 89vw;
+}
+
+section {
+  padding: 0 185px;
+  margin: inherit;
 }
