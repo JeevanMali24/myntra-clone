@@ -9,10 +9,15 @@ header {
   position: sticky;
   top: 0;
   background: white;
-  height: 55px;
+  height: 95px;
   box-shadow: 0px 6px 16px 0px hsl(0deg 0% 0% / 35%);
 }
 
+@media (max-width: 1000px) {
+  header {
+    background: rgb(227, 19, 19);
+  }
+}
 .homeimg {
   width: 84vw;
   margin-top: 10px;
@@ -39,6 +44,8 @@ header {
 
 nav {
   margin-top: 12px;
+  flex-direction: column;
+  align-items: center;
 }
 
 nav ul li {
