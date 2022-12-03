@@ -13,3 +13,9 @@
   text-align: center;
   margin: 5px;
 }
+
+.search {
+  height: 22px;
+  width: 200px;
+  border: solid;
+}
